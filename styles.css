@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Kode+Mono:wght@400..700&family=Libre+Barcode+39&family=Megrim&family=Press+Start+2P&display=swap');
+
+body, ul, li, h1, h2, a{
+margin: 0;
+padding: 0;
+font-family: "Kode Mono", monospace;
+}
+    
+body{
+background-color: #030406;
+overflow-x: hidden;
+}
+
+
+header{
+position: fixed;
+background-color: #030406;
+padding:20px;
+text-align: center;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+}
+    
+header h1{
+color: white;
+border: 4px solid white;
+padding: 6px 6px;
+display: inline-block;
+}
+
+.hostile{
+    color:orange;
+}
+
+header img{
+margin-bottom: -3px;
+}
+    
+.banner{
+position:relative;
+width: 100%;
+}
+
+.banner img{
+max-width: 100%;
+width: 100vw;
+margin-top: 45px;
+position: relative;
+}
+
+.banner #searching{
+color:white;
+position:absolute;
+padding: 30px;
+left: 0px;
+top: 30%;
+font-family: "Kode Mono", monospace;
+}
+
+
+
+.banner #disruption{
+    border-right: .15em solid orange; /* The typwriter cursor */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+} 
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+     
+nav{
+background-color: rgb(62, 188, 223);
+padding: 20px;
+position: sticky;
+top: 100px;
+text-align: center;
+}
+
+nav ul{
+white-space: nowrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+nav li{
+width: 25%;
+display: inline-block;
+font-size: 24px;
+}
+
+nav li a{
+text-decoration: none;
+color: white;
+}
+
+nav li a.join{
+color:white;
+
+}
+
+main{
+max-width: 100%;
+width: 1000px;
+margin:80px auto;
+padding: 0 40px;
+box-sizing: border-box;
+background-color: #030406;
+}
+
+.first-gif{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+
+h4{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.titles{
+display: flex;
+align-items: left;
+justify-content: left;
+text-align: left;
+display: inline-block;
+align-items: left;
+text-align: left;
+color: rgb(223, 159, 62);
+font-size: 35px;
+}
+
+.who-text{
+display: inline-block;
+text-align: center;
+}
+
+
+article h4{
+color:rgb(62, 188, 223);
+font-size: 48px;
+margin-top: 30px;
+}
+
+article h5{
+color:rgb(223, 159, 62);
+font-size: 35px;
+margin-top: -20px;
+}
+
+article h6{
+color:rgb(223, 159, 62);
+font-size: 35px;
+display: flex;
+align-items: left;
+justify-content: left;
+text-align: left;
+display: inline-block;
+align-items: left;
+text-align: left;   
+}
+
+article p{
+line-height: 2em;
+color: #ffffff;
+}
+
+article{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.container1{
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+.container, .text1, .text11, .logos3{
+    box-sizing: border-box;
+  }
+  
+.text1{
+    height: 50%;
+    width: 690px;
+  }
+  
+.text11{
+    height: 50%;
+    width: 700px;
+  }
+  
+.logos3{
+    height: 100%;
+    width: 125px;
+  }
+
+.container2{
+    width: 1000px;
+    margin-top: -20px;
+    text-align: justify;
+}
+    
+.images{
+    text-align: center;
+    margin:40px 0;
+    white-space: nowrap;
+    margin-bottom: -30px;
+    }
+
+.images li{
+display: inline-block;
+}
+
+.images li img{
+max-width: 100%;
+}
+    
+.our-mission{
+    margin-top: -40px;
+}
+
+.container3{
+    width: 1000px;
+    margin-top: -30px;
+    text-align: justify;
+}
+
+.container4{
+    width: 1000px;
+    margin-top: -20px;
+    text-align: justify;
+
+}
+
+
+.text4{
+    float: right;
+    width: 600px;
+}
+
+.gif4{
+    float: left;
+    overflow: hidden;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+        /* width: 100px; */
+}
+
+.picpic{
+    width: 300px;
+    margin-left: 30px;
+    position: 0 -30px;
+}
+
+.benefits{
+    color: white;
+    width: 1000px;
+    margin-top: -15px;
+    margin-bottom: 100px;
+}
+
+
+.benefits li{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    padding-top: -13px;
+}
+
+.benefits li b{
+    margin-left: 6px;
+}
+
+.iconli{
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    background-image: url(media/logo.jpg);
+    display: inline-block;
+    background-repeat: none; 
+    background-position: cover;
+    background-size: 12px 12px;
+}
+
+.rise{
+    margin-top: -30px;
+    text-align: justify;
+}
+
+.lastgif{
+    margin-top: 40px;
+}
+
+section.join{
+    background: #030406;
+    text-align: center;
+    padding:60px 20px;
+    color: white;
+    }
+
+.join h2{
+font-size: 28px;
+color: rgb(62, 188, 223);
+    }
+    
+form input{
+margin:20px 0;
+padding: 10px 20px;
+font-size: 24px;
+border-radius: 28px;
+border: 4px solid orange;
+background-color: #030406;
+text-align: center;
+font-family: "Kode Mono", monospace;
+
+}
+    
+footer{
+    background-color: rgb(62, 188, 223);
+    color: #030406;
+    padding: 10px;
+    text-align: center;
+    position: 0px 0px;
+    }
+    
+
+
+/*pseudo classes*/
+    
+nav li a:hover{
+text-decoration: underline;
+}
+    
+.images li:hover{
+    position: relative;
+    top: -4px;
+    }
+form input:focus{
+        border: 4px dashed black;
+        outline: none;
+        background-color: orange;
+    }
+
+form input:valid{
+        border:4px solid #41e300
+    }
+article p::first-line{
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+section.join p::first-letter{
+    font-size: 1.5em;
+    }
+
+    
+    
+    /*pseudo selectors*/
+p::selection{
+    background-color: rgb(62, 188, 223);
+    color:white;
+    }
+
+li::selection {
+    background-color: rgb(62, 188, 223);
+    }
+    
+    /*responsive styles*/
+    @media screen and (max-width: 1400px){
+        .banner .welcome h2{
+            font-size: 60px;
+            
+    }
+    nav li{
+        font-size: 18px;
+    }
+    }
+    
+    @media screen and (max-width: 960px){
+        .banner .welcome h2{
+            font-size: 40px;
+            
+    }
+    }
+    
+    @media screen and (max-width: 700px){
+        .banner .welcome {
+            position: relative;
+            text-align: center;
+            padding: 10px;
+        }
+        .banner .welcome br{
+            display:none;
+        }
+    .banner .welcome h2{
+            font-size: 25px;
+        }
+    .banner .welcome span{
+            font-size: 1em;
+        }
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    
+    }
+    }
+    
+    @media screen and (max-width: 560px){
+        nav li{
+            font-size: 20px;
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: 12px 0;
+        }
+        header{
+            position:relative;
+        }
+    nav{
+        top: 0;
+    }
+        }
+
+
